@@ -19,7 +19,7 @@ This app contains the following features:
 
 This application uses [Bootstrap 4](https://getbootstrap.com/) for styling and [Open-Iconic icons](https://useiconic.com/open) for icons.
 
-## Initial screen
+## Initial screen:
 
 The initial screen lets the user set the length of the focus and break and break sessions. 
 
@@ -29,7 +29,7 @@ The "stop" button is disabled on the initial screen because the user has not yet
 
 When the user clicks the "play" button, the timer will always start a new focus session.
 
-## Active session screen
+## Active session screen:
 
 After the user clicks the "play" button, the buttons to change the focus and break duration are disabled and the session timer appears. 
 
@@ -37,7 +37,7 @@ After the user clicks the "play" button, the buttons to change the focus and bre
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
-## Paused session screen
+## Paused session screen:
 
 If the user clicks the "pause" button, "paused" appears below the time remaining. 
 
@@ -45,7 +45,7 @@ If the user clicks the "pause" button, "paused" appears below the time remaining
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
-## Stopping a session
+## Stopping a session:
 
 Stopping a session returns the application to the initial screen and the user is able to change the focus and break duration. 
 
