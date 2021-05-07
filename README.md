@@ -23,7 +23,7 @@ This application uses [Bootstrap 4](https://getbootstrap.com/) for styling and [
 
 The initial screen lets the user set the length of the focus and break and break sessions. 
 
-![Initial Screen](./docs/pomodoro-initial-screen.png)
+![Initial Screen](https://user-images.githubusercontent.com/60833392/117480633-db26aa00-af2f-11eb-9a01-cd2e74f9f8c7.png)
 
 The "stop" button is disabled on the initial screen because the user has not yet started the timer.  
 
@@ -41,15 +41,13 @@ The session timer shows the type of session, either "Focusing" or "On Break", th
 
 If the user clicks the "pause" button, "paused" appears below the time remaining. 
 
-![Paused Session Screen](https://user-images.githubusercontent.com/60833392/117480693-ef6aa700-af2f-11eb-9974-1d4d9e426722.png) 
+![Paused Session Screen](https://user-images.githubusercontent.com/60833392/117480725-f7c2e200-af2f-11eb-8345-ac2c0b35e931.png) 
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
 ## Stopping a session
 
 Stopping a session returns the application to the initial screen and the user is able to change the focus and break duration. 
-
-![Stopped Session Screen](https://user-images.githubusercontent.com/60833392/117480725-f7c2e200-af2f-11eb-8345-ac2c0b35e931.png)
 
 Clicking the "play" button will always start a new focus session.
 
