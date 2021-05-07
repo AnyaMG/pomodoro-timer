@@ -4,7 +4,7 @@
 
 [Pomodoro timer NEED TO DEPLOY PROJECT](https://reservations-anyamg.vercel.app/)  
 
-## Application Summary:
+## Application summary:
 
 A pomodoro timer application intended for users to optimize their productivity.  
 The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Cirillo used as a university student.
@@ -18,7 +18,6 @@ This app contains the following features:
 1. When the break time expires, the alarm sound plays again and then the focus timer starts.
 
 This application uses [Bootstrap 4](https://getbootstrap.com/) for styling and [Open-Iconic icons](https://useiconic.com/open) for icons.
-
 
 ## Initial screen
 
@@ -34,7 +33,7 @@ When the user clicks the "play" button, the timer will always start a new focus 
 
 After the user clicks the "play" button, the buttons to change the focus and break duration are disabled and the session timer appears. 
 
-![Active Session Screen](./docs/pomodoro-active-sesson.png) 
+![Active Session Screen](https://user-images.githubusercontent.com/60833392/117480633-db26aa00-af2f-11eb-9a01-cd2e74f9f8c7.png) 
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
@@ -42,13 +41,15 @@ The session timer shows the type of session, either "Focusing" or "On Break", th
 
 If the user clicks the "pause" button, "paused" appears below the time remaining. 
 
-![Paused Session Screen](./docs/pomodoro-paused-session.png) 
+![Paused Session Screen](https://user-images.githubusercontent.com/60833392/117480693-ef6aa700-af2f-11eb-9974-1d4d9e426722.png) 
 
 The session timer shows the type of session, either "Focusing" or "On Break", the total duration of the session, the time remaining, and a progress bar showing how much of the session is complete.
 
 ## Stopping a session
 
 Stopping a session returns the application to the initial screen and the user is able to change the focus and break duration. 
+
+![Stopped Session Screen](https://user-images.githubusercontent.com/60833392/117480725-f7c2e200-af2f-11eb-8345-ac2c0b35e931.png)
 
 Clicking the "play" button will always start a new focus session.
 
