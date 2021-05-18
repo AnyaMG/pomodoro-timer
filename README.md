@@ -2,8 +2,8 @@
 
 ## Live demo:
 
-[Pomodoro timer NEED TO DEPLOY PROJECT](https://reservations-anyamg.vercel.app/)  
-
+[Deployed pomodoro app temp placeholder ](https://vercel.app/)  
+ 
 ## Application summary:
 
 A pomodoro timer application intended for users to optimize their productivity.  
